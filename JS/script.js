@@ -21,7 +21,10 @@ console.log(personalMovieDB);
  */
 
 
-const num = 50;
+
+/* Условия */
+
+/* const num = 50;
 if (num < 49) {
     console.log('Error');
 } else if (num > 100){
@@ -45,4 +48,28 @@ switch (number) {
     default:
         console.log('Не в этот раз');
         break;
+} */
+
+
+/* Циклы */
+let num = 50;
+
+while (num <= 55) {
+    console.log(num);
+    num++;
+}
+
+
+
+do {
+    console.log(num);
+    num++;
+} while (num =<55)
+
+
+for (let i = 1; i  < 8; i++) {
+    if(i === 6) {
+       // break; //прерывает на 6
+        continue; // продолжает работу исключая 6
+    }
 }
